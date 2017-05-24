@@ -45,6 +45,7 @@ Name: <input type="text" name="name"><br>
 Password: <input type="password" name="pass"><br>
 <input type="submit" name="login" value="Log In">
 </form>
+<p> <a href="#"> Not yet registered? Register Now <p>  
 </article>
 
 <footer>Copyright &copy; ERP solutions</footer>
