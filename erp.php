@@ -102,7 +102,7 @@
 			<div id="navArea"></div>
 			<ul id="nav">
 				<a href="studentlogin.php"> <li> STUDENT LOGIN </li> </a>
-				<a href="facultylogin.php ?>"> <li> FACULTY LOGIN </li> </a>
+				<a href="facultylogin.php"> <li> FACULTY LOGIN </li> </a>
 			</ul>
 		</div>
 	</div>
