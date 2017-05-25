@@ -72,13 +72,13 @@ For our close button we set the ba
     <a href="#close" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
 		<form action="connecttodb.php" method="post">
-			<input type="integer" name="regeno" value="Reg Number"> <br>
-			<input type="text" name="regname" value="Name"> <br>
-			<input type="text" name="regemail" value="E-Mail ID"> <br>
-			<input type="integer" name="regmob" value="Mobile Number"> <br>
-			<input type="password" name="regpass" value="Password"> <br>
+			<input type="integer" name="regeno" placeholder="Reg Number"> <br>
+			<input type="text" name="regname" placeholder="Name"> <br>
+			<input type="text" name="regemail" placeholder="E-Mail ID"> <br>
+			<input type="integer" name="regmob" placeholder="Mobile Number"> <br>
+			<input type="password" name="regpass" placeholder="Password"> <br>
 
-			<input type="submit" name="regsubmit" value="Register"> <br>
+			<p> <input type="submit" name="regsubmit" value="Register"> </p>
 		</form>
 		
 	</div>

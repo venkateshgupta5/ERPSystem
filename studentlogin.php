@@ -41,11 +41,11 @@ article {
   
 <article>
 <form action="connect.php" method="post">
-Name: <input type="text" name="name"><br>
-Password: <input type="password" name="pass"><br>
+<P> <input type="text" name="name" placeholder="Name"></P>
+<P><input type="password" name="pass" placeholder="Password"></P>
 <input type="submit" name="login" value="Log In"> <br>
 <p> <img src="captcha.php" /><br> </p>
-<p> Enter the text you see </p>
+<p> Enter the captcha you see </p>
 <p> <input name="captcha" type="text"> <br>
 
 </form>
