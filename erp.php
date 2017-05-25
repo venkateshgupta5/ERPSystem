@@ -110,7 +110,7 @@
 
 	<div id="mainArea">
 		<div class="container page">
-			<P> Welcome </P> 
+			<P> Welcome Bro</P> 
 		</div>
 	</div>
 

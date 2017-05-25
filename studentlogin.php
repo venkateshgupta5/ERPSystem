@@ -45,7 +45,11 @@ Name: <input type="text" name="name"><br>
 Password: <input type="password" name="pass"><br>
 <input type="submit" name="login" value="Log In">
 </form>
-<p> <a href="#"> Not yet registered? Register Now <p>  
+
+<a href="openmodal.php"> New Student! Not yet Registered? Register Now </a>
+
+
+
 </article>
 
 <footer>Copyright &copy; ERP solutions</footer>
