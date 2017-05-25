@@ -43,7 +43,11 @@ article {
 <form action="connect.php" method="post">
 Name: <input type="text" name="name"><br>
 Password: <input type="password" name="pass"><br>
-<input type="submit" name="login" value="Log In">
+<input type="submit" name="login" value="Log In"> <br>
+
+<p> Enter the text you see </p>
+<p> <input name="captcha" type="text"> <br>
+<img src="captcha.php" /><br> </p>
 </form>
 
 <a href="openmodal.php"> New Student! Not yet Registered? Register Now </a>
