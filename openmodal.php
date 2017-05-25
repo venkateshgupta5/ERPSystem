@@ -69,7 +69,7 @@ For our close button we set the ba
 <body>
 <div id="openmodal" class="modalDialog">
     <div>
-    <a href="#close" title="Close" class="close">X</a>
+    <a href="studentlogin.php" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
 		<form action="connecttodb.php" method="post">
 			<input type="integer" name="regeno" placeholder="Reg Number"> <br>
