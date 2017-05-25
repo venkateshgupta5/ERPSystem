@@ -61,7 +61,7 @@
 
 .close:hover { background: #00d9ff; }
 
-For our close button we set the ba
+/*For our close button we set the ba 
 </style>
 
 
@@ -69,16 +69,16 @@ For our close button we set the ba
 <body>
 <div id="openmodal" class="modalDialog">
     <div>
-    <a href="studentlogin.php" title="Close" class="close">X</a>
+    <a href="fac_login.php" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
-		<form action="connecttodb.php" method="post">
-			<input type="integer" name="regeno" placeholder="Reg Number"> <br>
-			<input type="text" name="regname" placeholder="Name"> <br>
-			<input type="text" name="regemail" placeholder="E-Mail ID"> <br>
-			<input type="integer" name="regmob" placeholder="Mobile Number"> <br>
-			<input type="password" name="regpass" placeholder="Password"> <br>
+		<form action="fac_upload_2db.php" method="post">
+			<input type="integer" name="regno" placeholder="Reg Number"> <br>
+			<input type="text" name="name" placeholder="Name"> <br>
+			<input type="text" name="email" placeholder="E-Mail ID"> <br>
+			<input type="integer" name="mobile" placeholder="Mobile Number"> <br>
+			<input type="password" name="password" placeholder="Password"> <br>
 
-			<p> <input type="submit" name="regsubmit" value="Register"> </p>
+			<p> <input type="submit" name="f_reg_submit" value="Register"> </p>
 		</form>
 		
 	</div>

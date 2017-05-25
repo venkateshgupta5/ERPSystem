@@ -41,13 +41,16 @@
     <h1> FACULTY LOGIN </h1></header>
 
     <article>
-        <form action="connectf.php" method="post">
+        <form action="fac_con2db.php" method="post">
 
-            Name : <input type="text" name="fname"> <br>
-            Password : <input type="password" name="fpass"> <br>
-            <input type="submit" name="flogin" value="LOG IN">
+            <P><input type="integer" name="f_regno" placeholder="Registration Number"> </P>
+            <P><input type="password" name="f_password" placeholder="Password"> </P>
+            <p> <img src="captcha.php" /><br> </p>
+            <p> Enter the captcha you see </p>
+            <p> <input name="captcha" type="text"> </p> 
+            <P><input type="submit" name="f_login" value="LOG IN"> </P>
         </form>
-        <p> <a href="#"> New Faculty! Not yet registered? Register now </a> </p>
+        <p> <a href="fac_mod_4reg.php"> New Faculty! Not yet registered? Register now </a> </p>
     </article>
     <footer>Copyright &copy; ERP solutions</footer>
 </div>

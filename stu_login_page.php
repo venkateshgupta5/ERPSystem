@@ -40,17 +40,17 @@ article {
 </header>
   
 <article>
-<form action="connect.php" method="post">
-<P> <input type="text" name="name" placeholder="Name"></P>
-<P><input type="password" name="pass" placeholder="Password"></P>
-<input type="submit" name="login" value="Log In"> <br>
+<form action="stu_con2db.php" method="post">
+<P> <input type="integer" name="s_regno" placeholder="Registration Number"></P>
+<P><input type="password" name="s_password" placeholder="Password"></P>
 <p> <img src="captcha.php" /><br> </p>
 <p> Enter the captcha you see </p>
-<p> <input name="captcha" type="text"> <br>
+<p> <input name="captcha" type="text"> </p>
+<P> <input type="submit" name="s_login" value="Log In"> </P>
 
 </form>
 
-<a href="openmodal.php"> New Student! Not yet Registered? Register Now </a>
+<a href="stu_mod_4reg.php"> New Student! Not yet Registered? Register Now </a>
 
 
 

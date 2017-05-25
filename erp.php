@@ -102,8 +102,8 @@
 			<div id="logoArea"> </div>
 			<div id="navArea"></div>
 			<ul id="nav">
-				<a href="studentlogin.php"> <li> STUDENT LOGIN </li> </a>
-				<a href="facultylogin.php"> <li> FACULTY LOGIN </li> </a>
+				<a href="stu_login_page.php"> <li> STUDENT LOGIN </li> </a>
+				<a href="fac_login_page.php"> <li> FACULTY LOGIN </li> </a>
 			</ul>
 		</div>
 	</div>
