@@ -32,15 +32,7 @@ article {
 </style>
 </head>
 <body>
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["s_regno"].value;
-    if (x == "") {
-        alert("Reg No must be filled out");
-        return false;
-    }
-} 
-</script>
+
 <div class="container">
 
 <header>
@@ -48,8 +40,8 @@ function validateForm() {
 </header>
   
 <article>
-<form name ="myForm" action="stu_con2db.php" method="post" onsubmit="return validateForm()" >
-<P> <input type="integer" name="s_regno"  placeholder="Registration Number"></P>
+<form action="stu_con2db.php" method="post">
+<P> <input type="integer" name="s_regno" placeholder="Registration Number"></P>
 <P><input type="password" name="s_password" placeholder="Password"></P>
 <p> <img src="captcha.php" /><br> </p>
 <p> Enter the captcha you see </p>
