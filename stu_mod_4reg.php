@@ -71,7 +71,7 @@
     <div>
     <a href="stu_login_page.php" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
-		<form action="stu_upload_2db.php" method="post">
+		<form name ="reg_form" action="stu_upload_2db.php" method="post" onsubmit="return validateregForm()" >
 			<input type="integer" name="regno" placeholder="Reg Number"> <br>
 			<input type="text" name="name" placeholder="Name"> <br>
 			<input type="text" name="email" placeholder="E-Mail ID"> <br>
@@ -79,10 +79,11 @@
 			<input type="password" name="password" placeholder="Password"> <br>
 
 			<p> <input type="submit" name="stu_reg" value="Register"> </p>
+
 		</form>
 		
 	</div>
 </div>
-
+<script src="validateregdetails.js"></script>
 </body>
 </html>

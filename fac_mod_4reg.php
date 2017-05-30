@@ -71,7 +71,7 @@
     <div>
     <a href="fac_login.php" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
-		<form action="fac_upload_2db.php" method="post">
+		<form name="reg_form" action="fac_upload_2db.php" method="post" onsubmit="return validateregForm()">
 			<input type="integer" name="regno" placeholder="Reg Number"> <br>
 			<input type="text" name="name" placeholder="Name"> <br>
 			<input type="text" name="email" placeholder="E-Mail ID"> <br>
@@ -83,6 +83,6 @@
 		
 	</div>
 </div>
-
+<script src="validateregdetails.js"></script>
 </body>
 </html>

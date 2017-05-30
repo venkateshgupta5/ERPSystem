@@ -32,15 +32,7 @@ article {
 </style>
 </head>
 <body>
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["s_regno"].value;
-    if (x == "") {
-        alert("Reg No must be filled out");
-        return false;
-    }
-} 
-</script>
+
 <div class="container">
 
 <header>
@@ -63,6 +55,9 @@ function validateForm() {
 
 
 </article>
+<script src="stu_form_check.js">
+
+</script>
 
 <footer>Copyright &copy; ERP solutions</footer>
 
