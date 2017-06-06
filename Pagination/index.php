@@ -2,7 +2,7 @@
 <html>
 <title>Ajax table pagination with MySQL, PHP and jQuery - InfoTuts</title>
 <head>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="1.1.1.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
