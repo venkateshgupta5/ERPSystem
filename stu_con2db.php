@@ -14,7 +14,9 @@
        $result = mysqli_query($link,$query);
        if (mysqli_num_rows($result) == 1) 
         {
-          echo "pass"; //Pass, do something
+          //echo "pass"; //Pass, do something
+           header("Location: http://localhost/ERP/Pagination/index.php");
+         exit;//Pass, do something
         } 
          else 
         {

@@ -16,8 +16,8 @@
 	      {
 	        
             
-    header("Location: http://localhost/ERP/Load_on_Scroll/index.php");
-    exit;//Pass, do something
+        header("Location: http://localhost/ERP/Load_on_Scroll/index.php");
+         exit;//Pass, do something
 	      } 
 	       else 
 	      {
