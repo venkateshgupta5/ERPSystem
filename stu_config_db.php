@@ -1,5 +1,5 @@
 
 <?php
-$link = mysqli_connect('localhost','root','root','student');
+$link = mysqli_connect('localhost','root','root','UNIVERSITY');
 ?> 
 

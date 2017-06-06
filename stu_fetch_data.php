@@ -7,7 +7,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT regno, name, email FROM basicdetails";
+$sql = "SELECT regno, name, email FROM Student";
 $result = mysqli_query($conn, $sql);
 ?>
 

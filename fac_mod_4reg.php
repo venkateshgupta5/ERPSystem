@@ -69,7 +69,7 @@
 <body>
 <div id="openmodal" class="modalDialog">
     <div>
-    <a href="fac_login.php" title="Close" class="close">X</a>
+    <a href="fac_login_page.php" title="Close" class="close">X</a>
 		<h2>Registration Details </h2>
 		<form name="reg_form" action="fac_upload_2db.php" method="post" onsubmit="return validateregForm()">
 			<input type="integer" name="regno" placeholder="Reg Number"> <br>

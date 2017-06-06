@@ -14,7 +14,7 @@ Echo "please fill the empty field.";
 }
 Else
 {
-$strsql="INSERT INTO basicdetails(regno, name, email, mobile, password) VALUES('".$_POST['regno']."', '".$_POST['name']."', '".$_POST['email']."', '".$_POST['mobile']."' ,'".$_POST['password']."')";
+$strsql="INSERT INTO Faculty(regno, name, email, mobile, password) VALUES('".$_POST['regno']."', '".$_POST['name']."', '".$_POST['email']."', '".$_POST['mobile']."' ,'".$_POST['password']."')";
 
 //$strsql="INSERT INTO student (username,password,pname,email,mobile,post) VALUES ('avinash', 'avinash', 'avinash', 'avinash', '96','12')";
 mysqli_query($link,$strsql) or die(mysqli_error($link));

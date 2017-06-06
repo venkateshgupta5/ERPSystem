@@ -10,7 +10,7 @@
    {
     if($_POST["captcha"]!=""&&$_SESSION["code"]==$_POST["captcha"])
       {
-     $query = "SELECT * FROM basicdetails WHERE regno = '". mysqli_real_escape_string($link,$regno) ."' AND password = '". mysqli_real_escape_string($link,$password) ."'" ;
+     $query = "SELECT * FROM Student WHERE regno = '". mysqli_real_escape_string($link,$regno) ."' AND password = '". mysqli_real_escape_string($link,$password) ."'" ;
        $result = mysqli_query($link,$query);
        if (mysqli_num_rows($result) == 1) 
         {
